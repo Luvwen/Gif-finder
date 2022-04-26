@@ -1,0 +1,45 @@
+/* Gifs component */
+
+.main-wrapper {
+    overflow-x: hidden;
+}
+
+.gif-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.gif-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.gif-form__button {
+    margin-top: 15px;
+}
+
+.gifs-name {
+    margin: 0 auto;
+}
+
+.gif-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    padding: 7px;
+    margin-top: 15px;
+}
+
+.gif-list__li {
+    width: 200px;
+}
+
+.gif-list__gif {
+    height: 150px;
+    width: 200px;
+    padding: 5px;
+}
